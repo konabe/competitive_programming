@@ -1,0 +1,17 @@
+{
+  "license": "UNLICENSED",
+  "scripts": {
+    "s:1": "ts-node ./ts.ts < input/input1.txt",
+    "s:2": "ts-node ./ts.ts < input/input2.txt",
+    "s:3": "ts-node ./ts.ts < input/input3.txt",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "jest": "^29.4.2",
+    "typescript": "3.8.x"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
